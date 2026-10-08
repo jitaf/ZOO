@@ -1,0 +1,11 @@
+public class Zelva extends Zvire {
+
+    public Zelva(int rokNarozeni, String jmeno) {
+        super(rokNarozeni, jmeno);
+    }
+
+    @Override
+    public void vydejZvuk() {
+        System.out.println("Zelva nevydava zadny zvuk");
+    }
+}
